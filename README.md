@@ -34,17 +34,10 @@ Ensure the following dependencies are included in your pom.xml:
 
 ## Project Structure
 
-.
-├── pom.xml
-├── src
-│   └── main
-│       └── java
-│           └── com
-│               └── example
-│                   ├── CreateTopicAndSubscription.java
-│                   ├── SendMessage.java
-│                   └── ReceiveMessage.java
-└── README.md
+The project contains the following classes:
+
+- `SendMessages`: Demonstrates how to send messages to a topic.
+- `ReceiveMessages`: Demonstrates how to receive messages from a subscription.
 
 ### Contributing
 
